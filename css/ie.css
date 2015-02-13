@@ -1,0 +1,132 @@
+.clearfix, .header-top, .main, .event-head, .footer {
+    *zoom: 1;
+}
+
+.main-menu li,
+.description {
+    *display: inline;
+    *zoom: 1;
+}
+
+.bgimg {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.wrapper {
+    background: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.page, .footer {
+    position: relative;
+    z-index: 100;
+}
+
+.description {
+    *margin-top: 3px;
+    *line-height: 33px;
+}
+
+.footer .description {
+    *margin-top: 3px;
+    *line-height: 25px;
+}
+
+.person-name {
+    background: transparent;
+}
+
+.main-person .person-name {
+    background: url("../images/person-bg3.png");
+}
+
+.sub-person .person-name {
+    background: url("../images/person-bg1.png");
+}
+
+.sub-person.sp4 .person-name {
+    background: url("../images/person-bg2.png");
+}
+
+.main-person a:hover .person-name,
+.sub-person a:hover .person-name {
+    *display: block;
+}
+
+.section-title {
+    *padding: 2px 0 2px 22px;
+}
+
+.main-menu li:first-child {
+    *margin-left: 21px;
+}
+
+.section-title .plus-yellow,
+.main-menu li .plus-gray {
+    top: -4px;
+}
+
+.main-menu .submenu li:first-child {
+    *margin-left: 0;
+}
+
+.project-item .project-name .inner {
+    display: block;
+    height: 100px;
+    padding-top: 70px;
+}
+
+/* Font */
+body {
+    font-size: 11px;
+}
+
+.block {
+    line-height: 14px;
+}
+
+.content h1 {
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.content h2 {
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.content h3 {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.content h4 {
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.content h5 {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.content h6 {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.section-title {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.headline {
+    font-size: 13px;
+    line-height: 15px;
+}
